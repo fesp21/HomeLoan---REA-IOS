@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2759645A19B7F65F00A6766E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759645919B7F65F00A6766E /* Foundation.framework */; };
+		2759645C19B7F65F00A6766E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759645B19B7F65F00A6766E /* CoreGraphics.framework */; };
+		2759645E19B7F65F00A6766E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759645D19B7F65F00A6766E /* UIKit.framework */; };
+		2759646419B7F65F00A6766E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2759646219B7F65F00A6766E /* InfoPlist.strings */; };
+		2759646619B7F65F00A6766E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759646519B7F65F00A6766E /* main.m */; };
+		2759646A19B7F65F00A6766E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759646919B7F65F00A6766E /* AppDelegate.m */; };
+		2759646D19B7F65F00A6766E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2759646B19B7F65F00A6766E /* Main.storyboard */; };
+		2759647019B7F65F00A6766E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759646F19B7F65F00A6766E /* ViewController.m */; };
+		2759647219B7F65F00A6766E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2759647119B7F65F00A6766E /* Images.xcassets */; };
+		2759647919B7F65F00A6766E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759647819B7F65F00A6766E /* XCTest.framework */; };
+		2759647A19B7F65F00A6766E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759645919B7F65F00A6766E /* Foundation.framework */; };
+		2759647B19B7F65F00A6766E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2759645D19B7F65F00A6766E /* UIKit.framework */; };
+		2759648319B7F65F00A6766E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2759648119B7F65F00A6766E /* InfoPlist.strings */; };
+		2759648519B7F65F00A6766E /* Home_Loan___REATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759648419B7F65F00A6766E /* Home_Loan___REATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2759647C19B7F65F00A6766E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2759644E19B7F65F00A6766E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2759645519B7F65F00A6766E;
+			remoteInfo = "Home Loan : REA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2759645619B7F65F00A6766E /* Home Loan : REA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Loan : REA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2759645919B7F65F00A6766E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2759645B19B7F65F00A6766E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2759645D19B7F65F00A6766E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2759646119B7F65F00A6766E /* Home Loan : REA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Home Loan : REA-Info.plist"; sourceTree = "<group>"; };
+		2759646319B7F65F00A6766E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2759646519B7F65F00A6766E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2759646719B7F65F00A6766E /* Home Loan : REA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Home Loan : REA-Prefix.pch"; sourceTree = "<group>"; };
+		2759646819B7F65F00A6766E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2759646919B7F65F00A6766E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2759646C19B7F65F00A6766E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2759646E19B7F65F00A6766E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2759646F19B7F65F00A6766E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2759647119B7F65F00A6766E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2759647719B7F65F00A6766E /* Home Loan : REATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Loan : REATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2759647819B7F65F00A6766E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2759648019B7F65F00A6766E /* Home Loan : REATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Home Loan : REATests-Info.plist"; sourceTree = "<group>"; };
+		2759648219B7F65F00A6766E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2759648419B7F65F00A6766E /* Home_Loan___REATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Home_Loan___REATests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2759645319B7F65F00A6766E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759645C19B7F65F00A6766E /* CoreGraphics.framework in Frameworks */,
+				2759645E19B7F65F00A6766E /* UIKit.framework in Frameworks */,
+				2759645A19B7F65F00A6766E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2759647419B7F65F00A6766E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759647919B7F65F00A6766E /* XCTest.framework in Frameworks */,
+				2759647B19B7F65F00A6766E /* UIKit.framework in Frameworks */,
+				2759647A19B7F65F00A6766E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2759644D19B7F65F00A6766E = {
+			isa = PBXGroup;
+			children = (
+				2759645F19B7F65F00A6766E /* Home Loan : REA */,
+				2759647E19B7F65F00A6766E /* Home Loan : REATests */,
+				2759645819B7F65F00A6766E /* Frameworks */,
+				2759645719B7F65F00A6766E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2759645719B7F65F00A6766E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2759645619B7F65F00A6766E /* Home Loan : REA.app */,
+				2759647719B7F65F00A6766E /* Home Loan : REATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2759645819B7F65F00A6766E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2759645919B7F65F00A6766E /* Foundation.framework */,
+				2759645B19B7F65F00A6766E /* CoreGraphics.framework */,
+				2759645D19B7F65F00A6766E /* UIKit.framework */,
+				2759647819B7F65F00A6766E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2759645F19B7F65F00A6766E /* Home Loan : REA */ = {
+			isa = PBXGroup;
+			children = (
+				2759646819B7F65F00A6766E /* AppDelegate.h */,
+				2759646919B7F65F00A6766E /* AppDelegate.m */,
+				2759646B19B7F65F00A6766E /* Main.storyboard */,
+				2759646E19B7F65F00A6766E /* ViewController.h */,
+				2759646F19B7F65F00A6766E /* ViewController.m */,
+				2759647119B7F65F00A6766E /* Images.xcassets */,
+				2759646019B7F65F00A6766E /* Supporting Files */,
+			);
+			path = "Home Loan : REA";
+			sourceTree = "<group>";
+		};
+		2759646019B7F65F00A6766E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2759646119B7F65F00A6766E /* Home Loan : REA-Info.plist */,
+				2759646219B7F65F00A6766E /* InfoPlist.strings */,
+				2759646519B7F65F00A6766E /* main.m */,
+				2759646719B7F65F00A6766E /* Home Loan : REA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2759647E19B7F65F00A6766E /* Home Loan : REATests */ = {
+			isa = PBXGroup;
+			children = (
+				2759648419B7F65F00A6766E /* Home_Loan___REATests.m */,
+				2759647F19B7F65F00A6766E /* Supporting Files */,
+			);
+			path = "Home Loan : REATests";
+			sourceTree = "<group>";
+		};
+		2759647F19B7F65F00A6766E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2759648019B7F65F00A6766E /* Home Loan : REATests-Info.plist */,
+				2759648119B7F65F00A6766E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2759645519B7F65F00A6766E /* Home Loan : REA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2759648819B7F65F00A6766E /* Build configuration list for PBXNativeTarget "Home Loan : REA" */;
+			buildPhases = (
+				2759645219B7F65F00A6766E /* Sources */,
+				2759645319B7F65F00A6766E /* Frameworks */,
+				2759645419B7F65F00A6766E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Loan : REA";
+			productName = "Home Loan : REA";
+			productReference = 2759645619B7F65F00A6766E /* Home Loan : REA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2759647619B7F65F00A6766E /* Home Loan : REATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2759648B19B7F65F00A6766E /* Build configuration list for PBXNativeTarget "Home Loan : REATests" */;
+			buildPhases = (
+				2759647319B7F65F00A6766E /* Sources */,
+				2759647419B7F65F00A6766E /* Frameworks */,
+				2759647519B7F65F00A6766E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2759647D19B7F65F00A6766E /* PBXTargetDependency */,
+			);
+			name = "Home Loan : REATests";
+			productName = "Home Loan : REATests";
+			productReference = 2759647719B7F65F00A6766E /* Home Loan : REATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2759644E19B7F65F00A6766E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iMoney;
+				TargetAttributes = {
+					2759647619B7F65F00A6766E = {
+						TestTargetID = 2759645519B7F65F00A6766E;
+					};
+				};
+			};
+			buildConfigurationList = 2759645119B7F65F00A6766E /* Build configuration list for PBXProject "Home Loan : REA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2759644D19B7F65F00A6766E;
+			productRefGroup = 2759645719B7F65F00A6766E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2759645519B7F65F00A6766E /* Home Loan : REA */,
+				2759647619B7F65F00A6766E /* Home Loan : REATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2759645419B7F65F00A6766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759647219B7F65F00A6766E /* Images.xcassets in Resources */,
+				2759646419B7F65F00A6766E /* InfoPlist.strings in Resources */,
+				2759646D19B7F65F00A6766E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2759647519B7F65F00A6766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759648319B7F65F00A6766E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2759645219B7F65F00A6766E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759647019B7F65F00A6766E /* ViewController.m in Sources */,
+				2759646A19B7F65F00A6766E /* AppDelegate.m in Sources */,
+				2759646619B7F65F00A6766E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2759647319B7F65F00A6766E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2759648519B7F65F00A6766E /* Home_Loan___REATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2759647D19B7F65F00A6766E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2759645519B7F65F00A6766E /* Home Loan : REA */;
+			targetProxy = 2759647C19B7F65F00A6766E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2759646219B7F65F00A6766E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2759646319B7F65F00A6766E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2759646B19B7F65F00A6766E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2759646C19B7F65F00A6766E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2759648119B7F65F00A6766E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2759648219B7F65F00A6766E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2759648619B7F65F00A6766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2759648719B7F65F00A6766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2759648919B7F65F00A6766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Loan : REA/Home Loan : REA-Prefix.pch";
+				INFOPLIST_FILE = "Home Loan : REA/Home Loan : REA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2759648A19B7F65F00A6766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Loan : REA/Home Loan : REA-Prefix.pch";
+				INFOPLIST_FILE = "Home Loan : REA/Home Loan : REA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2759648C19B7F65F00A6766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Home Loan : REA.app/Home Loan : REA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Loan : REA/Home Loan : REA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Home Loan : REATests/Home Loan : REATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2759648D19B7F65F00A6766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Home Loan : REA.app/Home Loan : REA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Home Loan : REA/Home Loan : REA-Prefix.pch";
+				INFOPLIST_FILE = "Home Loan : REATests/Home Loan : REATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2759645119B7F65F00A6766E /* Build configuration list for PBXProject "Home Loan : REA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2759648619B7F65F00A6766E /* Debug */,
+				2759648719B7F65F00A6766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2759648819B7F65F00A6766E /* Build configuration list for PBXNativeTarget "Home Loan : REA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2759648919B7F65F00A6766E /* Debug */,
+				2759648A19B7F65F00A6766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2759648B19B7F65F00A6766E /* Build configuration list for PBXNativeTarget "Home Loan : REATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2759648C19B7F65F00A6766E /* Debug */,
+				2759648D19B7F65F00A6766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2759644E19B7F65F00A6766E /* Project object */;
+}
