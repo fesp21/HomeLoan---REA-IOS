@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Home Loan : REA-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Home Loan : REA-DateTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Home Loan : REA-GoogleAnalytics-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Home Loan : REA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B844BF04BB5F4C8DBD657024</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBCE807C21C74081AF3353FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C57B581E9B4547B084753DB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC955EB6195F4DE689B25C1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

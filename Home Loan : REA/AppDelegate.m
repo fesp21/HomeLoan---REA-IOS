@@ -10,37 +10,75 @@
 
 @implementation AppDelegate
 
+static BOOL needRefresh;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //Push
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+     (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+    
+    //Google Analytics.
+//    [GAI sharedInstance].trackUncaughtExceptions = YES;
+//    [GAI sharedInstance].dispatchInterval = 20;
+//    [[GAI sharedInstance].logger setLogLevel:kGAILogLevelVerbose];
+    [[GAI sharedInstance] trackerWithTrackingId:@"UA-50608320-3"];
+    
+    
+    needRefresh=NO;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [ColorUtilities colorWithHexString:@"91e1ff"];
+    SplashVC *splash = [[SplashVC alloc] initWithNibName:@"SplashVC" bundle:nil];
+    self.window.rootViewController = splash;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    needRefresh=YES;
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
++ (void)setNeedRefresh:(BOOL)value
+{
+    needRefresh =value;
+}
++ (BOOL)getIsNeedRefresh
+{
+    return needRefresh;
+}
+
+
+
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+{
+	NSLog(@"My token is: %@", deviceToken);
+}
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+	NSLog(@"Failed to get token, error: %@", error);
 }
 
 @end
